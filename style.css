@@ -1,0 +1,10 @@
+.profile img {
+    width: 120px; /* Tăng kích thước một chút cho rõ */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover; /* Quan trọng: giúp ảnh không bị méo khi cắt tròn */
+    object-position: center top; /* Căn giữa và lấy phần trên của ảnh */
+    border: 4px solid #ffb7c5; /* Đổi viền sang màu hồng nhạt cho hợp tông ảnh */
+    box-shadow: 0 4px 15px rgba(255, 183, 197, 0.4);
+    margin-bottom: 15px;
+}
